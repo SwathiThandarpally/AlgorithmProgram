@@ -24,6 +24,10 @@ namespace AlgorithmPrograms
             //UC_4
             MergeSort mergeSort = new MergeSort();
             mergeSort.MergeSorting();
+            Console.WriteLine("------------------------------------");
+            //UC_5
+            Anagram anagram = new Anagram();
+            anagram.Display();
 
         }
     }
