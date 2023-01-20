@@ -32,6 +32,11 @@ namespace AlgorithmPrograms
             //UC_6
             PrimeNumbers primeNumbers = new PrimeNumbers();
             primeNumbers.Display();
+            Console.WriteLine("------------------------------------");
+            //UC_7
+            Permutation permutation = new Permutation();
+            permutation.Display();
+
         }
     }
 }
