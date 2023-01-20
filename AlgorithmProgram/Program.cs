@@ -28,7 +28,10 @@ namespace AlgorithmPrograms
             //UC_5
             Anagram anagram = new Anagram();
             anagram.Display();
-
+            Console.WriteLine("------------------------------------");
+            //UC_6
+            PrimeNumbers primeNumbers = new PrimeNumbers();
+            primeNumbers.Display();
         }
     }
 }
