@@ -42,7 +42,7 @@ namespace AlgorithmProgram
             {
                 Console.WriteLine(g);
             }
-            if (index > 0)
+            if (index < 0)
             {
                 Console.WriteLine("Word is found");
             }
