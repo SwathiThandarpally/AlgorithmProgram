@@ -36,6 +36,12 @@ namespace AlgorithmPrograms
             //UC_7
             Permutation permutation = new Permutation();
             permutation.Display();
+            Console.WriteLine("------------------------------------");
+            //UC_8
+            ExtendedPrimeNumber extendedPrimeNumber = new ExtendedPrimeNumber();
+            extendedPrimeNumber.Display();
+            extendedPrimeNumber.Anagrams("earth","sweet");
+
 
         }
     }
